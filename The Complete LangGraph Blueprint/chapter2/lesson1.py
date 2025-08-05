@@ -6,6 +6,7 @@ from typing_extensions import TypedDict
 from langgraph.graph import StateGraph, START, END
 from langchain_core.runnables.graph import MermaidDrawMethod
 import os
+
 # Define the state structure
 class HelloWorldState(TypedDict):
    greeting: str  # This key will store the greeting message
